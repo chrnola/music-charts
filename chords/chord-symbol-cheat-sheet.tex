@@ -1,0 +1,27 @@
+\documentclass{article}
+
+% Import some basics
+\usepackage{fullpage}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+% Import the music symbols
+% See: https://us.mirrors.cicku.me/ctan/macros/latex/contrib/leadsheets/leadsheets_en.pdf
+\usepackage[minimal]{leadsheets}
+\useleadsheetslibraries{chords}
+
+\title{Chord Symbols \& Spellings}
+\author{}
+\date{}
+\begin{document}
+    \maketitle
+    \thispagestyle{empty}
+    \huge\begin{description}
+        \item[Major - 1,3,5:] \writechord{Gma}, (very rarely) \writechord{GM}
+        \item[Minor - 1,\flat3,5:] \writechord{Gmi}, \writechord{G--}
+        \item[Major 7 - 1,3,5,7:] \writechord{Gmaj7}, \writechord{G$\Delta$7}, (rarely) GM7
+        \item[Minor 7 - 1,\flat3,5,\flat7:] \writechord{Gmi7}, G--7
+        \item[Dominant 7 - 1,3,5,\flat7:] \writechord{G7}
+        \item[Minor 7 Flat 5 - 1,\flat3,\flat5,\flat7:] \writechord{Gmi7^\flat5}, \writechord{G/o}
+        \item[Diminshed 7 - 1,\flat3,\flat5,\doubleflat7:] \writechord{Gdim7}, \writechord{Go}
+    \end{description}
+\end{document}
